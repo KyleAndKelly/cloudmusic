@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     // ...其他规则
     "react/prop-types": "off", // 如果您使用 TypeScript，可以关闭 prop-types 检查
+    '@typescript-eslint-explicit-any' : 'off'
     // ...其他规则
   },
   settings: {
